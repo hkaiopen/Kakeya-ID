@@ -1,0 +1,21 @@
+Building 5D frequency mesh...
+Initializing 5D directional segments (Gaussian envelopes)...
+Starting 5D Kakeya set evolution (mode: puregl)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 159639330308.8069 | Measure = 0.0410 / 1024.0000
+Step  500 | Max |Ψ| = 12499999999999996300623872.0000 | Measure = 0.0010 / 1024.0000
+Step 1000 | Max |Ψ| = 12499999999999996300623872.0000 | Measure = 0.0010 / 1024.0000
+Step 1500 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+Step 2000 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+Step 2500 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+Step 3000 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+Step 3500 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+Step 3999 | Max |Ψ| = 24.8626 | Measure = 0.0010 / 1024.0000
+------------------------------------------------------------
+
+Final 5D Lebesgue measure: 0.0010 (fraction = 0.0001%)
+Support points: 1 / 1048576
+Expected Hausdorff dimension = 5
+5D directional coverage: 50/50 = 100.0%
+
+Dataset exported to 'kakeya_5d_N16_puregl.npz'
