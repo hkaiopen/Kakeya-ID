@@ -130,7 +130,7 @@ If you use this code or the datasets in your research, please cite the following
 > https://doi.org/10.5281/zenodo.19542718
 
 **The Kakeya dataset:**  
-> Huang, K. (2026). *Kakeya-type sets in 3D, 4D, and 5D* [Data set]. https://github.com/hkaiopen/Kakeya-ID/datasets
+> Huang, K. (2026). *Kakeya-type sets in 3D, 4D, and 5D* [Data set]. https://github.com/hkaiopen/Kakeya-ID/tree/main/datasets
 
 **The software (this repository):**  
 > Huang, K. (2026). *Kakeya-ID: Numerical construction of Kakeya sets via generalized Ginzburg–Landau dynamics* (Version v1.0) [Computer software]. GitHub. https://github.com/hkaiopen/Kakeya-ID
