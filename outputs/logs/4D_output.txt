@@ -1,0 +1,19 @@
+Building 4D frequency mesh...
+Initializing 4D directional segments (Gaussian envelopes)...
+Starting 4D Kakeya set evolution (mode: puregl)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 42456252837.2025 | Measure = 0.9630 / 4096.0000
+Step  500 | Max |Ψ| = 18000000000000000771751936.0000 | Measure = 0.0123 / 4096.0000
+Step 1000 | Max |Ψ| = 18000000000000000771751936.0000 | Measure = 0.0123 / 4096.0000
+Step 1500 | Max |Ψ| = 11.9727 | Measure = 0.1111 / 4096.0000
+Step 2000 | Max |Ψ| = 11.9727 | Measure = 0.1111 / 4096.0000
+Step 2500 | Max |Ψ| = 11.9727 | Measure = 0.1111 / 4096.0000
+Step 2999 | Max |Ψ| = 11.9727 | Measure = 0.1111 / 4096.0000
+------------------------------------------------------------
+
+Final 4D Lebesgue measure: 0.1111 (fraction = 0.0027%)
+Support points: 9 / 331776
+Expected Hausdorff dimension = 4
+4D directional coverage: 50/50 = 100.0%
+
+Dataset exported to 'kakeya_4d_N24_puregl.npz'
