@@ -1,0 +1,18 @@
+Building 3D frequency mesh...
+Initializing 3D directional segments (Gaussian envelopes)...
+Starting 3D Kakeya set evolution (mode: puregl)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 44909068.8735 | Measure = 28.1372 / 1000.0000
+Step  500 | Max |Ψ| = 12000000000000001946157056.0000 | Measure = 0.2441 / 1000.0000
+Step 1000 | Max |Ψ| = 12000000000000001946157056.0000 | Measure = 0.2441 / 1000.0000
+Step 1500 | Max |Ψ| = 8.4700 | Measure = 0.3967 / 1000.0000
+Step 2000 | Max |Ψ| = 8.4700 | Measure = 0.3967 / 1000.0000
+Step 2499 | Max |Ψ| = 8.4700 | Measure = 0.3967 / 1000.0000
+------------------------------------------------------------
+
+Final 3D Lebesgue measure: 0.3967 (fraction = 0.0397%)
+Support points: 13 / 32768
+Expected Hausdorff dimension = 3
+3D directional coverage: 50/50 = 100.0%
+
+Dataset exported to 'kakeya_3d_N32_puregl.npz'
