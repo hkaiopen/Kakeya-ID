@@ -47,10 +47,14 @@ Kakeya-ID/
     │   ├── 3D.png
     │   ├── 4D.png
     │   └── 5D.png
-    └── logs/                     # Console outputs from example runs
-        ├── 3d_output.txt
-        ├── 4d_output.txt
-        └── 5d_output.txt
+    └── logs/                     # Console outputs from kakeya_Nd_generation.py 
+    │   ├── 3d_output.txt
+    │   ├── 4d_output.txt
+    │   └── 5d_output.txt
+    └── verify_logs/              # Console outputs from verify_kakeya.py
+        ├── verify_3d.txt
+        ├── verify_4d.txt
+        └── verify_5d.txt
 ```
 
 ## 4. Requirements
