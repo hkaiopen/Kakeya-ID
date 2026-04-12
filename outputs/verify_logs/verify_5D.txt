@@ -1,0 +1,18 @@
+> python verify_kakeya.py kakeya_5d_N16_puregl.npz
+Loading dataset: kakeya_5d_N16_puregl.npz
+Dimension: 5D
+Grid size: (np.int64(16), np.int64(16), np.int64(16), np.int64(16), np.int64(16))
+dx = 0.2500, L = 4.0000
+Support points: 1 / 1048576
+
+--- Measure ---
+Discrete Lebesgue measure: 0.000977
+Relative measure: 0.000095%
+
+--- Directional Coverage Test (random 500 directions) ---
+Using deterministic tracing (support points = 1 < 100)
+Coverage rate: 100.0%
+✓ Coverage test PASSED
+
+--- State Classification ---
+Conclusion: STABLE KAKEYA PHASE
