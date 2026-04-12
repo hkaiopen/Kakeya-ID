@@ -1,0 +1,18 @@
+> python verify_kakeya.py kakeya_4d_N24_puregl.npz
+Loading dataset: kakeya_4d_N24_puregl.npz
+Dimension: 4D
+Grid size: (np.int64(24), np.int64(24), np.int64(24), np.int64(24))
+dx = 0.3333, L = 8.0000
+Support points: 9 / 331776
+
+--- Measure ---
+Discrete Lebesgue measure: 0.111111
+Relative measure: 0.002713%
+
+--- Directional Coverage Test (random 500 directions) ---
+Using deterministic tracing (support points = 9 < 100)
+Coverage rate: 100.0%
+✓ Coverage test PASSED
+
+--- State Classification ---
+Conclusion: STABLE KAKEYA PHASE
