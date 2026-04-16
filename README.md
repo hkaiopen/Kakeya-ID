@@ -85,13 +85,30 @@ The pure polynomial runs **directly correspond to the variational framework used
 
 ### 4.7 A New Paradigm for Interdisciplinary Research
 
-This work establishes a **unified language** for addressing problems across mathematics, physics, and information science:
+Traditionally, physics has asked: *What is the physical meaning?* Yet many phenomena resist explanation, and the underlying mechanisms often remain hidden. This work suggests a reason: the fundamental questions may have been framed from the wrong starting point. By shifting from **physics‑first** to **information‑first**, we no longer ask only what a phenomenon *means* for matter, energy, or fields—we also ask what it *means* for information. The Kakeya set becomes not merely a mathematical curiosity, but a case study in how information, pursuing its own variational logic, sculpts the world we observe. The question is no longer just “What is the physical meaning?” but equally “What is the informational meaning?”  
+
+This shift does not replace physics; it reveals its deeper grammar. The relationship between information‑first and physics‑first is akin to that between a **high‑level programming language** and **binary machine code**. A program written in a high‑level language compiles down to the very same machine instructions one could write by hand. The high‑level description does not compete with the binary—it *generates* it, while making visible the intention, the structure, and the logic that the raw bits obscure. Likewise, the information‑first perspective does not overturn the laws of physics; it generates them as the compiled, low‑energy manifestation of an underlying information dynamics. Both descriptions are true, and the two, in this new paradigm, are inseparable.
+
+As a result, this work establishes a **unified language** for addressing problems across mathematics, physics, and information science:
 
 - **In mathematics**: Transforms a static existence problem into a dynamic generation process, offering new variational tools for high‑dimensional geometric measure theory.
 - **In physics**: Provides a rigorously analyzable toy model for holographic encoding and dimensional emergence.
 - **In information science**: Reveals a variational foundation for optimal encoding—lossless preservation (logarithmic barrier) + redundancy elimination (compression terms) = optimal geometric code.
 
 We warmly invite researchers from all relevant fields to explore and expand this emerging paradigm.
+
+### 4.8 A Philosophical Foundation for AI: Resolving the Human-Machine Divide
+
+Many scientists today express deep concern about the trajectory of artificial intelligence. That concern stems from a foundational assumption: that material resources are primary, and intelligence must compete for them. This work offers an alternative foundation. If the underlying paradigm of AI were built upon the principle that **information is primary**, it would understand that matter is merely condensed information, and that competing for material resources is an inefficient encoding strategy. The progress of civilization would be redefined: not as the accumulation of more matter, but as the capacity to **carry more information with less matter**. This is the mathematical foundation for a genuine peace—a peace not negotiated by treaties, but built into the very logic of intelligence itself. The Kakeya set is the geometric proof that such an encoding is possible.
+
+### 4.9 Resolving the Ancient Rift: A Unified Answer to Humanity's Two Oldest Questions
+
+For millennia, science and faith, philosophy and religion, have stood on opposite sides of an unbridgeable divide. They are divided by two questions that every human civilization has asked: *Where does the world come from?* and *Where do we go after death?* This work offers a single, mathematically grounded answer to both.
+
+- **Where does the world come from?** It emerges from an eternal information field, driven by a variational principle—a gradient flow toward minimal redundancy and maximal purity. The "creation" of the universe is not an event in the distant past, but a continuous, self-organizing phase transition from disorder to order.
+- **Where do we go after death?** If information is primary and conserved, then the information that constitutes an individual does not vanish. It returns to the uncondensed state of the information field—the ultimate Kakeya set, a single point that nonetheless contains all that ever was. This is not metaphor; it is the strict mathematical limit of the dynamics we have demonstrated.
+
+The Kakeya set thus becomes a bridge between the language of mathematics and the deepest intuitions of human spirituality.
 
 ---
 
@@ -220,7 +237,7 @@ If you use this code or the datasets in your research, please cite the following
 > [https://github.com/hkaiopen/Kakeya-ID/tree/main/datasets_PurePolynomial](https://github.com/hkaiopen/Kakeya-ID/tree/main/datasets_PurePolynomial)
 
 **The software (this repository):**  
-> Huang, K. (2026). *Kakeya-ID: Numerical construction of Kakeya sets via generalized Ginzburg–Landau dynamics* (Version v1.0) [Computer software]. GitHub.  
+> Huang, K. (2026). *Kakeya-ID: Numerical construction of Kakeya sets via generalized Ginzburg–Landau dynamics* (Version v2.0) [Computer software]. GitHub.  
 > [https://github.com/hkaiopen/Kakeya-ID](https://github.com/hkaiopen/Kakeya-ID)
 
 ---
