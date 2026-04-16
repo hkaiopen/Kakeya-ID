@@ -1,0 +1,130 @@
+
+======================================================================
+                     Starting 3D_baseline (DIM=3)                     
+======================================================================
+Building 3D frequency mesh...
+Initializing 3D directional segments (num_directions=500)...
+Starting evolution (pure polynomial GL, xi=0.1, gamma=1.2, mu=0.25)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 415328972.9126 | Measure = 35.095215 / 1000.0000
+Step  500 | Max |Ψ| = 20000000000000006106906624.0000 | Measure = 0.244141 / 1000.0000
+Step 1000 | Max |Ψ| = 20000000000000006106906624.0000 | Measure = 0.244141 / 1000.0000
+Step 1500 | Max |Ψ| = 84.3852 | Measure = 0.030518 / 1000.0000
+Step 2000 | Max |Ψ| = 84.3854 | Measure = 0.030518 / 1000.0000
+Step 2499 | Max |Ψ| = 84.3854 | Measure = 0.030518 / 1000.0000
+------------------------------------------------------------
+
+Final 3D Lebesgue measure: 0.030518 (fraction = 0.0031%)
+Support points: 1 / 32768
+Verifying directional coverage (fine tracing, 500 random directions)...
+3D directional coverage: 0/500 = 0.0%
+
+Dataset exported to 'kakeya_3d_polynomial_N32.npz'
+3D_baseline completed.
+
+
+======================================================================
+                      Starting 3D_strong (DIM=3)                      
+======================================================================
+Building 3D frequency mesh...
+Initializing 3D directional segments (num_directions=500)...
+Starting evolution (pure polynomial GL, xi=0.2, gamma=1.5, mu=0.2)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 830657483.0021 | Measure = 29.418945 / 1000.0000
+Step  500 | Max |Ψ| = 40000000000000012213813248.0000 | Measure = 0.244141 / 1000.0000
+Step 1000 | Max |Ψ| = 40000000000000012213813248.0000 | Measure = 0.244141 / 1000.0000
+Step 1500 | Max |Ψ| = 148.5265 | Measure = 0.030518 / 1000.0000
+Step 2000 | Max |Ψ| = 148.5271 | Measure = 0.030518 / 1000.0000
+Step 2499 | Max |Ψ| = 148.5271 | Measure = 0.030518 / 1000.0000
+------------------------------------------------------------
+
+Final 3D Lebesgue measure: 0.030518 (fraction = 0.0031%)
+Support points: 1 / 32768
+Verifying directional coverage (fine tracing, 500 random directions)...
+3D directional coverage: 0/500 = 0.0%
+
+Dataset exported to 'kakeya_3d_polynomial_strong_N32.npz'
+3D_strong completed.
+
+
+======================================================================
+                     Starting 3D_highdir (DIM=3)                      
+======================================================================
+Building 3D frequency mesh...
+Initializing 3D directional segments (num_directions=1000)...
+Starting evolution (pure polynomial GL, xi=0.1, gamma=1.2, mu=0.25)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 9751362110.5548 | Measure = 11.901855 / 1000.0000
+Step  500 | Max |Ψ| = 20000000000000006106906624.0000 | Measure = 0.244141 / 1000.0000
+Step 1000 | Max |Ψ| = 20000000000000006106906624.0000 | Measure = 0.244141 / 1000.0000
+Step 1500 | Max |Ψ| = 84.3852 | Measure = 0.030518 / 1000.0000
+Step 2000 | Max |Ψ| = 84.3854 | Measure = 0.030518 / 1000.0000
+Step 2499 | Max |Ψ| = 84.3854 | Measure = 0.030518 / 1000.0000
+------------------------------------------------------------
+
+Final 3D Lebesgue measure: 0.030518 (fraction = 0.0031%)
+Support points: 1 / 32768
+Verifying directional coverage (fine tracing, 500 random directions)...
+3D directional coverage: 0/500 = 0.0%
+
+Dataset exported to 'kakeya_3d_polynomial_hd_N32.npz'
+3D_highdir completed.
+
+
+======================================================================
+                     Starting 4D_baseline (DIM=4)                     
+======================================================================
+Building 4D frequency mesh...
+Initializing 4D directional segments (num_directions=600)...
+Starting evolution (pure polynomial GL, xi=0.2, gamma=1.5, mu=0.2)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 1153692205674.4802 | Measure = 0.740741 / 4096.0000
+Step  500 | Max |Ψ| = 30000000000000000570425344.0000 | Measure = 0.012346 / 4096.0000
+Step 1000 | Max |Ψ| = 30000000000000000570425344.0000 | Measure = 0.012346 / 4096.0000
+Step 1500 | Max |Ψ| = 318.5446 | Measure = 0.012346 / 4096.0000
+Step 2000 | Max |Ψ| = 318.5477 | Measure = 0.012346 / 4096.0000
+Step 2500 | Max |Ψ| = 318.5482 | Measure = 0.012346 / 4096.0000
+Step 2999 | Max |Ψ| = 318.5483 | Measure = 0.012346 / 4096.0000
+------------------------------------------------------------
+
+Final 4D Lebesgue measure: 0.012346 (fraction = 0.0003%)
+Support points: 1 / 331776
+Verifying directional coverage (fine tracing, 500 random directions)...
+4D directional coverage: 500/500 = 100.0%
+
+Dataset exported to 'kakeya_4d_polynomial_N24.npz'
+4D_baseline completed.
+
+
+======================================================================
+                     Starting 5D_baseline (DIM=5)                     
+======================================================================
+Building 5D frequency mesh...
+Initializing 5D directional segments (num_directions=800)...
+Starting evolution (pure polynomial GL, xi=0.35, gamma=2.0, mu=0.15)...
+------------------------------------------------------------
+Step    0 | Max |Ψ| = 10926882292401.0469 | Measure = 0.139918 / 1024.0000
+Step  500 | Max |Ψ| = 34999999999999991359733760.0000 | Measure = 0.004115 / 1024.0000
+Step 1000 | Max |Ψ| = 34999999999999991359733760.0000 | Measure = 0.004115 / 1024.0000
+Step 1500 | Max |Ψ| = 881.3204 | Measure = 0.004115 / 1024.0000
+Step 1999 | Max |Ψ| = 881.3282 | Measure = 0.004115 / 1024.0000
+------------------------------------------------------------
+
+Final 5D Lebesgue measure: 0.004115 (fraction = 0.0004%)
+Support points: 1 / 248832
+Verifying directional coverage (fine tracing, 500 random directions)...
+5D directional coverage: 500/500 = 100.0%
+
+Dataset exported to 'kakeya_5d_polynomial_N12.npz'
+5D_baseline completed.
+
+
+======================================================================
+All experiments finished.
+Generated datasets:
+  - kakeya_3d_polynomial_N32.npz (baseline)
+  - kakeya_3d_polynomial_strong_N32.npz (strong compression)
+  - kakeya_3d_polynomial_hd_N32.npz (high direction density)
+  - kakeya_4d_polynomial_N24.npz (baseline)
+  - kakeya_5d_polynomial_N12.npz (baseline)
+======================================================================
