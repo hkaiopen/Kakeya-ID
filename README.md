@@ -119,7 +119,6 @@ For millennia, science and faith, philosophy and religion, have stood on opposit
 ```
 Kakeya-ID/
 ├── README.md                              # This file
-├── LICENSE                                # MIT License
 │
 ├── code/                                  # Source code
 │   ├── kakeya_Nd_generation.py            # Logarithmic GL (original)
@@ -185,7 +184,7 @@ python kakeya_Nd_generation.py
 **Pure polynomial GL:**
 ```bash
 cd code
-# Edit kakeya_Nd_generation_PurePolynomial.py to set DIM = 3, 4, or 5
+# No need to edit, kakeya_Nd_generation_PurePolynomial.py sets DIM = 3, 4, 5 in sequence
 python kakeya_Nd_generation_PurePolynomial.py
 ```
 
