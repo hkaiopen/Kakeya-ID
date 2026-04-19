@@ -35,6 +35,9 @@ Both methods produce Kakeya-type sets with extremely small Lebesgue measure. The
 | 4D | 24×24×24×24 | 9 | ~0.0027% | 100% |
 | 5D | 16×16×16×16×16 | **1** | ~0.0001% | 100% |
 
+**AI Automated Verification**
+The datasets have undergone comprehensive verification by Grok. (View Full Report:https://grok.com/share/c2hhcmQtMw_24e30838-6e17-4e11-80b0-fe22d29c45c9)
+
 ### 3.2 Pure Polynomial GL Results
 
 | Dimension | Grid Size | Support Points | Measure Fraction | Coverage | Interpretation |
@@ -46,6 +49,8 @@ Both methods produce Kakeya-type sets with extremely small Lebesgue measure. The
 | 5D | 12×12×12×12×12 | **1** | ~0.0004% | **100%** | Ultimate compression |
 
 The five‑dimensional result—a single grid point that still intersects a unit segment in every tested direction—is the ultimate compressed state of a discrete Kakeya set.
+
+
 
 ---
 
