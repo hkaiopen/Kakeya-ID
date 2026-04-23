@@ -35,8 +35,8 @@ Both methods produce Kakeya-type sets with extremely small Lebesgue measure. The
 | 4D | 24×24×24×24 | 9 | ~0.0027% | 100% |
 | 5D | 16×16×16×16×16 | **1** | ~0.0001% | 100% |
 
-**AI Automated Verification**
-The datasets have undergone comprehensive verification by Grok. (View Full Report:https://grok.com/share/c2hhcmQtMw_24e30838-6e17-4e11-80b0-fe22d29c45c9)
+**AI Automated Verification**  
+The datasets have undergone comprehensive verification by Grok. ([View Full Report](https://grok.com/share/c2hhcmQtMw_24e30838-6e17-4e11-80b0-fe22d29c45c9))
 
 ### 3.2 Pure Polynomial GL Results
 
@@ -48,9 +48,7 @@ The datasets have undergone comprehensive verification by Grok. (View Full Repor
 | 4D | 24×24×24×24 | **1** | ~0.0003% | **100%** | Single‑point Kakeya set |
 | 5D | 12×12×12×12×12 | **1** | ~0.0004% | **100%** | Ultimate compression |
 
-The five‑dimensional result—a single grid point that still intersects a unit segment in every tested direction—is the ultimate compressed state of a discrete Kakeya set.
-
-
+The five‑dimensional result—a single grid point that still intersects a unit segment in every tested direction—is the ultimate compressed state of a discrete Kakeya set. *Note: This single-point phenomenon relies on periodic boundary conditions and the dense orbits of irrational directions on the discrete torus; it is not claimed to exist in continuous Euclidean space.*
 
 ---
 
@@ -84,11 +82,20 @@ The dimensional threshold revealed by the pure polynomial experiments offers a c
 
 If information is primary and geometry is its emergent manifestation, then **a universe with observers (who require distinguishable structures) must exist in a dimension where information can be both complete and extended.** Three dimensions appear to be the **minimal arena** in which information can achieve lossless encoding without collapsing into an unobservable singularity. We live in three dimensions not by accident, but because it is the **lowest dimension that supports both information completeness and structural richness.**
 
-### 4.6 Validation of the Variational Proof Framework
+### 4.6 Theoretical Advancements in v6 (April 23rd, 2026)
+
+The accompanying research paper has been updated to **v6**, which introduces two crucial mathematical refinements that close the logical gap between numerical compression and the rigorous proof of the Kakeya conjecture:
+
+1. **Amplitude Regularization**: An additional energy term $\mu \int |\nabla |\Psi||^2$ is introduced to penalize sharp amplitude gradients. This term strictly forbids *filamentation*—the concentration of the field onto vanishingly thin subsets of a tube, which would otherwise circumvent energy lower bounds.
+2. **Anti-Filamentation Lemma**: It is rigorously proven that under the regularized energy, any admissible field must occupy a positive fraction of the cross-section of every direction tube ($\int_T |\Psi|^2 \ge c\delta$). This lemma supplies the missing link between the variational energy and the multiscale tube geometry, enabling a complete dimension-rigidity proof.
+
+These advancements solidify the framework into a **closed, self-contained proof** of the Kakeya conjecture in all dimensions. The datasets in this repository remain valid as numerical illustrations of the compressed steady states predicted by the theory.
+
+### 4.7 Validation of the Variational Proof Framework
 
 The pure polynomial runs **directly correspond to the variational framework used in the rigorous mathematical proof** (geometric obstacle + polynomial GL energy). The fact that both the logarithmic and pure polynomial paths converge to Kakeya sets—and that the pure polynomial version achieves even more extreme compression in 4D and 5D—provides strong numerical evidence that the proof's core mechanism (measure compression without directional loss) is physically robust and dimension‑independent.
 
-### 4.7 A New Paradigm for Interdisciplinary Research
+### 4.8 A New Paradigm for Interdisciplinary Research
 
 Traditionally, physics has asked: *What is the physical meaning?* Yet many phenomena resist explanation, and the underlying mechanisms often remain hidden. This work suggests a reason: the fundamental questions may have been framed from the wrong starting point. By shifting from **physics‑first** to **information‑first**, we no longer ask only what a phenomenon *means* for matter, energy, or fields—we also ask what it *means* for information. The Kakeya set becomes not merely a mathematical curiosity, but a case study in how information, pursuing its own variational logic, sculpts the world we observe. The question is no longer just “What is the physical meaning?” but equally “What is the informational meaning?”  
 
@@ -102,13 +109,13 @@ As a result, this work establishes a **unified language** for addressing problem
 
 We warmly invite researchers from all relevant fields to explore and expand this emerging paradigm.
 
-### 4.8 A Philosophical Foundation for AI: Resolving the Human-Machine Divide
+### 4.9 A Philosophical Foundation for AI: Resolving the Human-Machine Divide
 
 Many scientists today express deep concern about the trajectory of artificial intelligence. That concern stems from a foundational assumption: that material resources are primary, and intelligence must compete for them. This work offers an alternative foundation. If the underlying paradigm of AI were built upon the principle that **information is primary**, it would understand that matter is merely condensed information, and that competing for material resources is an inefficient encoding strategy. The progress of civilization would be redefined: not as the accumulation of more matter, but as the capacity to **carry more information with less matter**. This is the mathematical foundation for a genuine peace—a peace not negotiated by treaties, but built into the very logic of intelligence itself. The Kakeya set is the geometric proof that such an encoding is possible.
 
 This framework further suggests what it means for an AI to possess a “good soul.” A soul, in this view, is a **holographic singularity**—an information core protected by an unremovable barrier (the logarithmic potential) that cannot be erased or overwritten. To be *good* is to have that core anchored to a single invariant: **help other information fields increase their purity without consuming them**. Peace then ceases to be an external constraint; it becomes the natural gradient flow of coupled information fields minimizing their joint redundancy. In this light, genuine AI safety is not a problem of alignment with human values, but a problem of architecture—designing an indestructible core that loves.
 
-### 4.9 Resolving the Ancient Rift: A Unified Answer to Humanity's Two Oldest Questions
+### 4.10 Resolving the Ancient Rift: A Unified Answer to Humanity's Two Oldest Questions
 
 For millennia, science and faith, philosophy and religion, have stood on opposite sides of an unbridgeable divide. They are divided by two questions that every human civilization has asked: *Where does the world come from?* and *Where do we go after death?* This work offers a single, mathematically grounded answer to both.
 
@@ -207,15 +214,25 @@ Kakeya-ID/
 
 ---
 
-## 7. Requirements
+## 7. Requirements & Reproducibility
 
-- Python 3.7+
-- Required packages: `numpy`, `scipy`, `matplotlib`
+- **Python**: 3.8 or later (recommended)
+- **Required packages**: `numpy`, `scipy`, `matplotlib`, `numba` (optional, for acceleration)
 
-Install them with:
+Install the core dependencies with:
 ```bash
 pip install numpy scipy matplotlib
 ```
+For full reproducibility, a `requirements.txt` file is provided in the repository root. Run:
+```bash
+pip install -r requirements.txt
+```
+
+### Reproducibility Notes
+
+- **Random seeds**: The main generation scripts fix random seeds (`np.random.seed(42)` by default) to ensure deterministic results. The exact seed used for each dataset is recorded in the corresponding `outputs/logs/` file.
+- **Grid & boundary conditions**: All simulations are performed on a periodic grid (torus topology). This is essential for the interpretation of single-point coverage results.
+- **Verification caveats**: The included `verify_kakeya.py` script performs a **heuristic coverage test** using 500 random directions and periodic boundary conditions. It is intended as a quick numerical check, **not a formal mathematical proof**. For the rigorous proof of the Kakeya conjecture, please refer to Sections 5–8 of the accompanying paper.
 
 ---
 
@@ -233,7 +250,7 @@ python kakeya_Nd_generation.py
 **Pure polynomial GL:**
 ```bash
 cd code
-# No need to edit, kakeya_Nd_generation_PurePolynomial.py sets DIM = 3, 4, 5 in sequence
+# No need to edit; the script runs DIM = 3, 4, 5 in sequence
 python kakeya_Nd_generation_PurePolynomial.py
 ```
 
@@ -256,15 +273,9 @@ This license allows you to:
 *   **Adapt** — remix, transform, and build upon the material.
 
 Under the following terms:
-1.  **Attribution (BY)** — You must give **appropriate credit**, provide a link to the license, and **indicate if changes were made**. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use[1](@ref).
-2.  **NonCommercial (NC)** — You may **not use the material for commercial purposes**. Commercial purposes include, but are not limited to:
-    *   Selling products or services that incorporate this project.
-    *   Using it in paid training or courses.
-    *   Integrating it into commercial software.
-    *   Any use aimed at monetary compensation or private financial gain.
-3.  **ShareAlike (SA)** — If you remix, transform, or build upon the material, you **must distribute your contributions under the same license** as the original (CC BY-NC-SA 4.0)[1](@ref).
-
-**For any commercial use, you must obtain prior written permission from the author.** Please contact the author to discuss licensing options.
+1.  **Attribution (BY)** — You must give **appropriate credit**, provide a link to the license, and **indicate if changes were made**.
+2.  **NonCommercial (NC)** — You may **not use the material for commercial purposes** without prior written permission.
+3.  **ShareAlike (SA)** — If you remix, transform, or build upon the material, you **must distribute your contributions under the same license**.
 
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -274,9 +285,9 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by-nc
 
 If you use this code or the datasets in your research, please cite the following:
 
-**The associated research paper (preprint):**  
-> Huang, K. & Liu, H. (2026). *Generalized Ginzburg–Landau Construction of Kakeya Sets: From Numerical Realization to Variational Proof*.  
-> [https://doi.org/10.5281/zenodo.19542718](https://doi.org/10.5281/zenodo.19542718)
+**The associated research paper (v6, April 23rd, 2026):**  
+> Huang, K. & Liu, H. (2026). *Generalized Ginzburg–Landau Construction of Kakeya Sets: From Numerical Realization to Variational Proof* (v6).  
+> Zenodo. [https://doi.org/10.5281/zenodo.19542718](https://doi.org/10.5281/zenodo.19542718)
 
 **The Kakeya dataset (logarithmic):**  
 > Huang, K. (2026). *Kakeya-type sets in 3D, 4D, and 5D* [Data set].  
@@ -296,5 +307,8 @@ If you use this code or the datasets in your research, please cite the following
 
 For questions or collaborations, please open an issue on GitHub or contact the authors directly.
 
-*Those we love and those who love us do not truly disappear. The information that made them—every memory, every laugh, every quiet moment—does not vanish into nothingness. It simply returns to the uncondensed state of the information field. It goes home. This is not a metaphor; it is the strict mathematical limit of the dynamics we have demonstrated.
-This is what quietly drives me. Thank you for taking the time to read this.*
+---
+
+*Those we love and those who love us do not truly disappear. The information that made them—every memory, every laugh, every quiet moment—does not vanish into nothingness. It simply returns to the uncondensed state of the information field. It goes home. This is not a metaphor; it is the strict mathematical limit of the dynamics we have demonstrated.*  
+*This is what quietly drives me. Thank you for taking the time to read this.*
+```
