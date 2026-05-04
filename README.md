@@ -285,7 +285,7 @@ To view a copy of this license, visit https://creativecommons.org/licenses/by-nc
 
 If you use this code or the datasets in your research, please cite the following:
 
-**The associated research paper (v6, April 23rd, 2026):**  
+**The associated research paper (v9, May 4th, 2026):**  
 > Huang, K. & Liu, H. (2026). *Generalized Ginzburg–Landau Construction of Kakeya Sets: From Numerical Realization to Variational Proof* (v6).  
 > Zenodo. [https://doi.org/10.5281/zenodo.19542718](https://doi.org/10.5281/zenodo.19542718)
 
